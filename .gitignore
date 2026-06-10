@@ -14,3 +14,5 @@ htmlcov/
 venv/
 build/
 dist/
+backend-tests/ai/eval/recordings/
+backend-tests/ai/eval/**/__pycache__/

@@ -5,6 +5,7 @@
 保存 Agent-RS 后端测试源码，按原目录分组：
 
 - `ai/`：Agent、Tool、MCP、domain、routing、planner、runner、compute、web_search 相关测试。
+  - `ai/eval/`：LLM planner 路由评测台、程序化题库生成器、分块指标与 replay/live 报告脚本；不保存 recordings 或 live raw responses。
 - `api/`：API 路由、上传、文档接口、限流等测试。
 - `auth/`：安全与 cookie 行为测试。
 - `db/`：数据库连接池、向量检索、SQL 清理测试。
